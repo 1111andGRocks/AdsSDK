@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GrocksAdsKit",
-            url: "https://github.com/1111andGRocks/AdsSDK/releases/download/1.0.0/GrocksAdsKit.xcframework.zip",
+            url: "https://github.com/1111andGRocks/AdsSDK/releases/download/0.1/GrocksAdsKit.xcframework.zip",
             checksum: "c4fb660902a3d663e95f63c0b9f90eeee214c1ef4738390f768ff6434334d5a6"
         ),
     ]
