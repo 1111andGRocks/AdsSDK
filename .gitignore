@@ -1,0 +1,19 @@
+.build/
+build/
+.swiftpm/
+.build-xcframework-staging/
+*.xcarchive
+.DS_Store
+
+# Бинарники — в репо только через GitHub Releases
+GrocksAdsKit.xcframework/
+*.xcframework.zip
+
+# Исходники и скрипт сборки — локально, в публичный репозиторий не пушим
+Sources/
+Scripts/
+
+# Xcode — пользовательские данные
+**/xcuserdata/
+*.xcuserstate
+**/xcshareddata/swiftpm/configuration/
